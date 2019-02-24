@@ -84,6 +84,23 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/css/less/components/loading.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/css/less/components/loading.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/css/less/components/logo.less": {
 		"aP": 0,
 		"bl": 0,
@@ -298,6 +315,114 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/favicon.png": {
+		"ft": 32768,
+		"iS": 14466,
+		"oA": 0,
+		"oAP": "/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicons/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 4810,
+		"oA": 0,
+		"oAP": "/favicons/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicons/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 13484,
+		"oA": 0,
+		"oAP": "/favicons/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicons/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 4711,
+		"oA": 0,
+		"oAP": "/favicons/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicons/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/favicons/browserconfig.xml",
+		"oF": 0
+		},
+	"/favicons/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1017,
+		"oA": 0,
+		"oAP": "/favicons/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicons/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1713,
+		"oA": 0,
+		"oAP": "/favicons/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicons/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/favicons/favicon.ico",
+		"oF": 0
+		},
+	"/favicons/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 4617,
+		"oA": 0,
+		"oAP": "/favicons/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicons/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/favicons/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/favicons/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/favicons/site.webmanifest",
+		"oF": 0
+		},
 	"/gigs.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -381,7 +506,7 @@
 	"creationDate": 572674330.35814798,
 	"displayValue": "TDR 2019.02.23",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "/img/apple-touch-icon-144x144-precomposed.png",
+	"iconImageName": "/favicons/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
