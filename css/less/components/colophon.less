@@ -1,0 +1,23 @@
+#colophon {
+	padding:20vh 0 5vh;
+
+	ul {
+		display:flex;
+		flex-direction:column;
+	}
+	li {
+		margin:0.5em 2em;
+	}
+	a {
+		color:var(--text-color);
+		font-size:0.875em;
+		letter-spacing:0.1em;
+	}
+
+	@media (min-width:56em) {
+		ul {
+			flex-direction:row;
+			justify-content:flex-end;
+		}
+	}
+}

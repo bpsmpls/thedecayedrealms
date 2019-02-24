@@ -1,0 +1,58 @@
+#music {
+	@tan:   #e8d5B9;
+	@black: #0D232F;
+	@red:   #ee3e54;
+	@white: #ffffff;
+
+	--bg-color:@tan;
+	--text-color:@black;
+	--nav-inactive-bg-color:@black;
+	--nav-inactive-text-color:@tan;
+	--nav-hover-text-color:@white;
+	--nav-active-bg-color:var(--bg-color);
+	--nav-active-text-color:@black;
+	--logo-letter-faces:@red;
+	--logo-letter-shadows:@black;
+	--logo-text:@black;
+	--button-bg-color:@red;
+	--button-text-color:@black;
+	--button-border-color:@black;
+	--button-hover-bg-color:@black;
+	--button-hover-text-color:@tan;
+}
+
+#music-releases {
+	list-style:none;
+	margin:0;
+	padding:0;
+
+	@media (min-width:60em) {
+		display:grid;
+		grid-template-columns:1fr 1fr;
+		grid-gap:4vw;
+	}
+}
+
+.music-release {
+	justify-self:center;
+	margin:0 auto 6em;
+	max-width:25em;
+
+	.album-cover {
+		margin-bottom:1em;
+
+		img {
+			box-shadow:7px 10px 10px -10px rgba(0,0,0,0.5);
+		}
+	}
+	.album-meta {
+		text-align:center;
+	}
+	.album-title {
+		font-size:2em;
+		margin:0;
+	}
+	.album-release-date {
+		font-size:1.25em;
+	}
+}

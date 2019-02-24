@@ -1,0 +1,2 @@
+"use strict";!function(u){u(document).ready(function(){var a=u("#primary-nav a"),r=u("body"),o=u("main");function c(t){a.removeClass("active"),t.addClass("active")}a.click(function(t){t.preventDefault();var a=u(this),i=a.text(),n=a.data("page"),e=a.attr("href"),s=o.outerHeight();r.addClass("transitions"),o.css("min-height",s),o.fadeOut(400,function(){c(a),r.attr("id",n);var t={foo:"bar"};history.pushState(t,i,e),o.load(e+" main",function(){o.fadeIn(),r.removeClass("transitions"),o.css("min-height","initial")})})})})}(jQuery);
+//# sourceMappingURL=scripts-min.js.map

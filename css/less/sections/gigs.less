@@ -1,0 +1,82 @@
+#gigs {
+	@orange: #f6903d;
+	@black:  #0D232F;
+	@red:    #b62467;
+	@maroon: #672c47;
+	@white:  #fefefe;
+
+	--bg-color:@orange;
+	--text-color:@maroon;
+	--emphasis-color:@white;
+	--nav-inactive-bg-color:@red;
+	--nav-inactive-text-color:@orange;
+	--nav-hover-text-color:@white;
+	--nav-active-bg-color:var(--bg-color);
+	--nav-active-text-color:@white;
+	--logo-letter-faces:@white;
+	--logo-letter-shadows:@red;
+	--logo-text:@white;
+}
+
+#upcoming-gigs {}
+
+.gig {
+	margin:0 auto 4em;
+	max-width:25em;
+
+	.gig-date {
+		color:var(--emphasis-color);
+		display:block;
+		font:@font-weight-bold 1.5em/1 @font-mono;
+		margin:0 0 0.5em;
+		letter-spacing:0.1em;
+		text-align:center;
+	}
+	.gig-venue {
+		color:var(--emphasis-color);
+		font:@font-weight-bold 2em/1 @font-sans;
+		margin:0;
+	}
+	.gig-time {
+		font:@font-weight-bold 1em/1.4 @font-mono;
+		text-transform:uppercase;
+	}
+	.gig-description {
+		font:1em/1.4 @font-sans;
+		margin:0;
+	}
+	.gig-cta {
+		font-size:0.875em;
+	}
+
+	@media (min-width:42em) {
+		display:grid;
+		grid-template-areas:'date venue''time description''empty cta';
+		grid-template-columns:6em 1fr;
+		grid-gap:0.25em 2em;
+		width:30em;
+
+		.gig-date { 
+			align-self:end;
+			font-size:1.25em;
+			grid-area:date;
+			justify-self:end;
+			margin:0;
+			text-transform:uppercase;
+		}
+		.gig-venue { 
+			align-self:end;
+			grid-area:venue;
+		}
+		.gig-time { 
+			grid-area:time;
+			justify-self:end;
+		}
+		.gig-description { 
+			grid-area:description;
+		}
+		.gig-cta { 
+			grid-area:cta;
+		}
+	}
+}

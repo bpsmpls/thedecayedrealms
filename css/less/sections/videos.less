@@ -1,0 +1,30 @@
+#videos {
+	@blue:   #0070b4;
+	@orange: #f05a22;
+	@yellow: #ffe400;
+	@white:  #ffffff;
+
+	--bg-color:@blue;
+	--text-color:@white;
+	--nav-inactive-bg-color:@orange;
+	--nav-inactive-text-color:@yellow;
+	--nav-hover-text-color:@white;
+	--nav-active-bg-color:var(--bg-color);
+	--nav-active-text-color:@white;
+	--logo-letter-faces:@yellow;
+	--logo-letter-shadows:@orange;
+	--logo-text:@white;
+	--button-bg-color:@orange;
+	--button-text-color:@yellow;
+	--button-border-color:@yellow;
+	--button-hover-bg-color:@yellow;
+	--button-hover-text-color:@orange;
+}
+
+.preserve-aspect-ratio();
+
+.video {
+	box-shadow:7px 10px 10px -10px rgba(0,0,0,0.5);
+	margin:0 auto 4em;
+	max-width:50em;
+}

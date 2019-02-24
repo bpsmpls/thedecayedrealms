@@ -1,0 +1,32 @@
+#primary-nav {
+	ul {
+		display:flex;
+		justify-content:space-around;
+	}
+	li {
+		flex-grow:1;
+	}
+	a {
+		background:var(--nav-inactive-bg-color);
+		color:var(--nav-inactive-text-color);
+		display:block;
+		letter-spacing:0.15em;
+		font:@font-weight-bold 0.75em/3 @font-mono;
+		text-align:center;
+		text-decoration:none;
+		text-transform:uppercase;
+
+		@media (min-width:34em) {
+			font-size:1em;
+		}
+
+		&:hover {
+			color:var(--nav-hover-text-color);
+		}
+
+		&.active {
+			background:var(--nav-active-bg-color);
+			color:var(--nav-active-text-color);
+		}
+	}
+}

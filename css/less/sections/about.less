@@ -1,0 +1,59 @@
+#about {
+	@blue:   #00Acdb;
+	@yellow: #fff100;
+	@purple: #652C90;
+	@white:  #ffffff;
+
+	--bg-color:@purple;
+	--text-color:@white;
+	--nav-inactive-bg-color:@blue;
+	--nav-inactive-text-color:@yellow;
+	--nav-hover-text-color:@white;
+	--nav-active-bg-color:var(--bg-color);
+	--nav-active-text-color:@white;
+	--logo-letter-faces:@yellow;
+	--logo-letter-shadows:@blue;
+	--logo-text:@white;
+}
+
+.portrait-with-description {
+	.portrait { 
+		margin:0 auto 2em;
+	}
+
+	@supports (mask-image:url()) or (-webkit-mask-image:url()) {
+		figure {
+			-webkit-mask-image:url(../svg/mask.svg);
+			        mask-image:url(../svg/mask.svg);
+			 -webkit-mask-size:cover;
+			         mask-size:cover;
+		}
+	}
+
+	.description { 
+		font-size:1.25em;
+		line-height:1.5;
+		padding:0 4vw;
+	}
+
+	mark {
+		background:var(--logo-letter-faces);
+		color:var(--bg-color);
+		display:inline-block;
+		font-weight:@font-weight-bold;
+		padding:0 0.125em;
+		text-indent:0;
+		text-shadow:none;
+	}
+
+	@media (min-width:48em) {
+		align-items:center;
+		display:grid;
+		grid-template-columns:3fr 2fr;
+		grid-gap:2vw;
+
+		.description {
+			text-align:right;
+		}
+	}
+}

@@ -1,0 +1,62 @@
+/* Variables / Mixins
+--------------------------*/
+
+// Brand Colors
+// -------------------------
+@white:       #ffffff;
+@black:		  #160a0e;
+
+
+// Fonts / Text
+// -------------------------
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700|IBM+Plex+Sans+Condensed:600|IBM+Plex+Sans:500,700');
+
+@font-mono:      'IBM Plex Mono', monospace;
+@font-condensed: 'IBM Plex Sans Condensed', sans-serif;
+@font-sans:      'IBM Plex Sans', sans-serif;;
+
+// Font Weights
+// -------------------------
+@font-weight-medium:   500;
+@font-weight-semibold: 600;
+@font-weight-bold:     700;
+
+// Z-indexes
+// -------------------------
+@nav-z-index: 99;
+
+.preserve-aspect-ratio(@crop:percentage((9/16)), @container:video, @wrap:wrap) {
+	.@{container} {
+		//margin-bottom:1em;
+		
+		.@{wrap} {
+			height:0;
+			padding-bottom:@crop; // default is 16:9
+			//padding-top:25px;
+			position:relative;
+		}
+		iframe, object, embed, video {
+			height:100%;
+			left:0;
+			position:absolute;
+			top:0;
+			width:100%;
+		}
+	}
+}
+
+// Transforms
+.transform(@transform) {
+	-webkit-transform: @transform;
+	   -moz-transform: @transform;
+	     -o-transform: @transform;
+			transform: @transform;
+}
+
+// Transitions
+.transition(@transition) {
+	-webkit-transition: @transition;
+	   -moz-transition: @transition;
+	     -o-transition: @transition;
+			transition: @transition;
+}

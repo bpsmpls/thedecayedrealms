@@ -1,0 +1,66 @@
+#photos {
+	@black:  #28211e;
+	@teal:   #20bcb9;
+	@yellow: #fbf6c5;
+	@white:  #ffffff;
+
+	--bg-color:@black;
+	--text-color:@yellow;
+	--nav-inactive-bg-color:@teal;
+	--nav-inactive-text-color:@yellow;
+	--nav-hover-text-color:@white;
+	--nav-active-bg-color:var(--bg-color);
+	--nav-active-text-color:@white;
+	--logo-letter-faces:@yellow;
+	--logo-letter-shadows:@teal;
+	--logo-text:@yellow;
+}
+
+#gallery {
+	display:grid;
+	grid-template-columns:1fr;
+	grid-gap:1em;
+
+	figure {
+		height:100%;
+	}
+	img {
+		height:100%;
+		object-fit:cover;
+	}
+
+	@media (min-width:50em) {
+		grid-template-columns:1fr 1fr 8fr 6fr 2fr 2fr 1fr;
+		grid-template-rows:1fr 5fr auto;
+		grid-gap:0.25em;
+
+		#promo {
+			grid-column:1 / 4;
+			grid-row:1 / 4;
+		}
+		#depot {
+			grid-column:4;
+			grid-row:2;
+		}
+		#can-can {
+			grid-column:4 / 8;
+			grid-row:3 / 5;
+		}
+		#equinox {
+			grid-column:3;
+			grid-row:4 / 6;
+		}
+		#galactic {
+			grid-column:4 / 6;
+			grid-row:5 / 7;
+		}
+		#kitty-cat-klub {
+			grid-column:2 / 4;
+			grid-row:6 / 8;
+		}
+		#cargotrike {
+			grid-column:4 / 7;
+			grid-row:7 / 8;
+		}
+	}
+}

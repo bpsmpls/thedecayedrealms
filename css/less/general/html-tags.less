@@ -1,0 +1,77 @@
+// Global Styles
+// --------------------------------------------------
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+		    box-sizing:border-box;
+}
+
+@supports (color:var(--color)) {
+	::-moz-selection { background:var(--text-color); color:var(--bg-color); }
+	::selection      { background:var(--text-color); color:var(--bg-color); }
+}
+
+body {
+	--bg-color:@white;
+	--text-color:@black;
+	--nav-inactive-bg-color:@black;
+	--nav-inactive-text-color:@white;
+	--nav-hover-text-color:@black;
+	--nav-active-bg-color:var(--bg-color);
+	--nav-active-text-color:@black;
+	--logo-letter-faces:@black;
+	--logo-letter-shadows:@white;
+	--logo-text:@black;
+	--button-bg-color:@black;
+	--button-text-color:@white;
+	--button-border-color:@black;
+	--button-hover-bg-color:@white;
+	--button-hover-text-color:@black;
+
+	background:var(--bg-color);
+	color:var(--text-color);
+	font:@font-weight-medium 1em/1.4 @font-sans;
+
+	&.transitions * {
+		.transition(all 0.25s ease-in-out);
+	}
+}
+
+a { color:var(--text-color); text-decoration:underline; }
+a:focus,
+a:active,
+a:hover {}
+
+figure {
+	position:relative;
+
+	img {
+		display:block;
+		height:auto;
+		width:100%;
+	}
+
+	figcaption {
+		background:var(--bg-color);
+		color:var(--text-color);
+		bottom:0;
+		font-size:0.625em;
+		line-height:1.5;
+		padding:0.25em 0.5em;
+		position:absolute;
+		right:0;
+
+		a {
+			border-bottom:1px dotted var(--text-color);
+			color:var(--text-color);
+			text-decoration:none;
+		}
+	}
+}
+
+main {
+	margin:0 1em;
+}
