@@ -65,22 +65,6 @@
 		"sI": 0,
 		"sU": 0
 		},
-	"/css/less/components/lists.less": {
-		"aP": 0,
-		"bl": 0,
-		"eJ": 0,
-		"ft": 1,
-		"iI": 0,
-		"ma": 1,
-		"mS": 0,
-		"oA": 1,
-		"oAP": "/css/less/components/lists.css",
-		"oF": 0,
-		"oS": 0,
-		"rwU": 0,
-		"sI": 0,
-		"sU": 0
-		},
 	"/css/less/components/loading.less": {
 		"aP": 0,
 		"bl": 0,
@@ -289,12 +273,12 @@
 		"eJ": 0,
 		"ft": 1,
 		"iI": 0,
-		"ma": 0,
+		"ma": 1,
 		"mS": 0,
 		"oA": 0,
 		"oAP": "/css/style.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"rwU": 0,
 		"sI": 0,
 		"sU": 0
@@ -418,11 +402,368 @@
 		"oAP": "/gigs.html",
 		"oF": 0
 		},
-	"/img": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/img",
-		"oF": 0
+	"/img/20161230thedecayedrealms.jpg": {
+		"ft": 16384,
+		"iS": 115700,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/20161230thedecayedrealms.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/20180204grounded.jpg": {
+		"ft": 16384,
+		"iS": 102376,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/20180204grounded.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/20200601tdr3.jpg": {
+		"ft": 16384,
+		"iS": 167925,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/20200601tdr3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/about-cargotrike.jpg": {
+		"ft": 16384,
+		"iS": 244018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about-cargotrike.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20160912-promo-1000.jpg": {
+		"ft": 16384,
+		"iS": 125213,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20160912-promo-1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20160912-promo-1400.jpg": {
+		"ft": 16384,
+		"iS": 206062,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20160912-promo-1400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20160912-promo-2000.jpg": {
+		"ft": 16384,
+		"iS": 334180,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20160912-promo-2000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20160912-promo-700.jpg": {
+		"ft": 16384,
+		"iS": 85359,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20160912-promo-700.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20160927-kck-1000.jpg": {
+		"ft": 16384,
+		"iS": 116991,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20160927-kck-1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20160927-kck-1400.jpg": {
+		"ft": 16384,
+		"iS": 178500,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20160927-kck-1400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20160927-kck-2000.jpg": {
+		"ft": 16384,
+		"iS": 269790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20160927-kck-2000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20160927-kck-700.jpg": {
+		"ft": 16384,
+		"iS": 73912,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20160927-kck-700.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20170429-cargotrike-1000.jpg": {
+		"ft": 16384,
+		"iS": 215138,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20170429-cargotrike-1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20170429-cargotrike-1400.jpg": {
+		"ft": 16384,
+		"iS": 291839,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20170429-cargotrike-1400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20170429-cargotrike-2000.jpg": {
+		"ft": 16384,
+		"iS": 422290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20170429-cargotrike-2000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20170429-cargotrike-700.jpg": {
+		"ft": 16384,
+		"iS": 128509,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20170429-cargotrike-700.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20170923-equinox-1000.jpg": {
+		"ft": 16384,
+		"iS": 173877,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20170923-equinox-1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20170923-equinox-1400.jpg": {
+		"ft": 16384,
+		"iS": 250010,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20170923-equinox-1400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20170923-equinox-2000.jpg": {
+		"ft": 16384,
+		"iS": 354532,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20170923-equinox-2000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20170923-equinox-700.jpg": {
+		"ft": 16384,
+		"iS": 118225,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20170923-equinox-700.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180121-galactic-1000.jpg": {
+		"ft": 16384,
+		"iS": 122367,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180121-galactic-1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180121-galactic-1400.jpg": {
+		"ft": 16384,
+		"iS": 146110,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180121-galactic-1400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180121-galactic-2000.jpg": {
+		"ft": 16384,
+		"iS": 247969,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180121-galactic-2000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180121-galactic-700.jpg": {
+		"ft": 16384,
+		"iS": 82351,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180121-galactic-700.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180126-depot-1000.jpg": {
+		"ft": 16384,
+		"iS": 163315,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180126-depot-1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180126-depot-1400.jpg": {
+		"ft": 16384,
+		"iS": 240776,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180126-depot-1400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180126-depot-2000.jpg": {
+		"ft": 16384,
+		"iS": 426946,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180126-depot-2000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180126-depot-700.jpg": {
+		"ft": 16384,
+		"iS": 92203,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180126-depot-700.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180202-cancanwonderland-1000.jpg": {
+		"ft": 16384,
+		"iS": 270940,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180202-cancanwonderland-1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180202-cancanwonderland-1400.jpg": {
+		"ft": 16384,
+		"iS": 438441,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180202-cancanwonderland-1400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180202-cancanwonderland-2000.jpg": {
+		"ft": 16384,
+		"iS": 609591,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180202-cancanwonderland-2000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/photos/20180202-cancanwonderland-700.jpg": {
+		"ft": 16384,
+		"iS": 172848,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/photos/20180202-cancanwonderland-700.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/share.jpg": {
+		"ft": 16384,
+		"iS": 111214,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/share.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/index.html": {
 		"cB": 0,
@@ -478,11 +819,25 @@
 		"oAP": "/photos.html",
 		"oF": 0
 		},
-	"/svg": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/svg",
-		"oF": 0
+	"/svg/mask.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/svg/mask.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/svg/tdr-logo-marquee.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/svg/tdr-logo-marquee.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/videos.html": {
 		"cB": 0,
@@ -940,11 +1295,11 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 8193,
+	"esLintEnvironmentsMask": 1,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -992,7 +1347,7 @@
 			},
 		"camelcase": {
 			"active": 0,
-			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
 			},
 		"capitalized-comments": {
 			"active": 0,
@@ -1020,7 +1375,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never'"
+			"optionString": "'never', {'enforceForClassMembers': true}"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -1124,7 +1479,7 @@
 			},
 		"id-match": {
 			"active": 0,
-			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
 			},
 		"implicit-arrow-linebreak": {
 			"active": 0,
@@ -1216,7 +1571,7 @@
 			},
 		"new-parens": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "'always'"
 			},
 		"newline-per-chained-call": {
 			"active": 0,
@@ -1268,7 +1623,7 @@
 			},
 		"no-confusing-arrow": {
 			"active": 0,
-			"optionString": "{'allowParens': false}"
+			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
 			"active": 1,
@@ -1376,7 +1731,7 @@
 			},
 		"no-extra-parens": {
 			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1428,7 +1783,7 @@
 			},
 		"no-invalid-this": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'capIsConstructor': true}"
 			},
 		"no-irregular-whitespace": {
 			"active": 1,
@@ -1648,7 +2003,7 @@
 			},
 		"no-tabs": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{allowIndentationTabs: false}"
 			},
 		"no-template-curly-in-string": {
 			"active": 0,
@@ -1684,7 +2039,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -1708,7 +2063,7 @@
 			},
 		"no-unsafe-negation": {
 			"active": 1,
-			"optionString": ""
+			"optionString": "{'enforceForOrderingRelations': false}"
 			},
 		"no-unused-expressions": {
 			"active": 0,
@@ -1740,7 +2095,7 @@
 			},
 		"no-useless-computed-key": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'enforceForClassMembers': false}"
 			},
 		"no-useless-concat": {
 			"active": 0,
@@ -1768,7 +2123,7 @@
 			},
 		"no-void": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowAsStatement': false}"
 			},
 		"no-warning-comments": {
 			"active": 0,
@@ -1928,7 +2283,7 @@
 			},
 		"sort-keys": {
 			"active": 0,
-			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2}"
 			},
 		"sort-vars": {
 			"active": 0,
@@ -1984,7 +2339,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": ""
+			"optionString": "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,
@@ -2538,7 +2893,7 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
-		"compilerType": 1,
+		"compilerType": 0,
 		"createSourceMap": 0,
 		"decimalPrecision": 10,
 		"emitCharset": 1,
@@ -2583,7 +2938,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"pluginMask": 3758088159
+		"pluginMask": 52780316221407
 		},
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
@@ -2612,7 +2967,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules, /img, /svg",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
@@ -2900,7 +3255,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"warnings": {
